@@ -11,6 +11,7 @@ let PORT = process.env.PORT || 3000,
     allowed_domains = JSON.parse(process.env.ALLOWED_DOMAINS);
 
 app.use(bodyParser.json());
+app.options('*', cors());
 
 app.get(`/`, (req, res) => {
   res.end(`<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><h1>200 ok</h1>`);
