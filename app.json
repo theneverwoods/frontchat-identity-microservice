@@ -1,5 +1,5 @@
 {
-  "name": "frontchat-identity-microservice",
+  "name": "frontchat-identity",
   "description": "validate your users' identity on your frontend-only site for use with frontchat",
   "repository": "https://github.com/theneverwoods/frontchat-identity-microservice",
   "keywords": ["frontapp", "frontchat", "shopify", "identity"],
