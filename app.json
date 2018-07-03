@@ -1,0 +1,15 @@
+{
+  "name": "frontchat-identity-microservice",
+  "description": "validate your users' identity on your frontend-only site for use with frontchat",
+  "repository": "https://github.com/theneverwoods/frontchat-identity-microservice",
+  "keywords": ["frontapp", "frontchat", "shopify", "identity"],
+  "env": {
+    "VERIFICATION_SECRET": {
+      "description": "Front Chat User Verification Secret (for generating user hash)",
+      "required": true
+    },
+    "ALLOWED_DOMAINS": {
+      "description": "JSON Array of domains allowed to make requests to generate hashes"
+    }
+  }
+}
