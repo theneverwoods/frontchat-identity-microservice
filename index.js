@@ -14,7 +14,7 @@ app.use(bodyParser.json());
 app.options('*', cors());
 
 app.get(`/`, (req, res) => {
-  res.end(`<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script><h1>200 ok</h1>`);
+  res.end(`<h1>200 ok</h1>`);
 });
 
 app.post(`/verify`, cors({
